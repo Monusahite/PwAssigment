@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+*{
+    font-family: "Roboto",sans-serif;
+}
+.input_file{
+    display: flex;
+    justify-content: center;
+}
+tr,th{
+    text-align: center;
+}
+tbody>tr{
+    
+}
+td{
+    font-size:1.2rem;
+}
+.table{
+   margin-top:2rem; 
+}
+.card-body{
+    background-color: black;
+    color: white !important;
+}
+.card-header{
+    background-color: rgb(76, 143, 225)!important;
+    color: white !important;
+}
+.modal{
+    background-color: black;
+}
+input[type="file"]{
+    width: 20rem;
+    padding-left: 4rem;
+    background-color: black;
+}
+button{
+    width:5rem;
+    color: white !important;
+    background-color: rgb(76, 143, 225)!important;
+}
+#modal{
+    position: fixed;
+    right:50%;
+    top:10rem;
+    z-index: 2;
+    width:20rem;
+    height:15rem;
+}
+
+th{
+    font-size:1.5rem;
+}
+thead{
+    background-color: black;
+    color: white;
+}
