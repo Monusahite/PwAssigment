@@ -33,6 +33,7 @@ td{
 input[type="file"]{
     width: 20rem;
     padding-left: 4rem;
+    margin-bottom: 3rem;
     background-color: black;
 }
 button{

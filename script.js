@@ -7,7 +7,13 @@ function handleChange(){
 
     sortedFiles.push(...fileList)
     sortedFiles.sort((a, b) => a.name.localeCompare(b.name))
+    sortedFiles.sort((a, b) => {
+        let aExt = a.name.substring(a.name.indexOf('.')+1,a.name.length)
+        let bExt = b.name.substring(b.name.indexOf('.')+1,b.name.length)
+        return aExt.localeCompare(bExt)
+    })
     
+    document.querySelector('tbody').innerHTML="";
     for(let i = 0;i<sortedFiles.length;i++)
     showFiles(sortedFiles[i])
     
